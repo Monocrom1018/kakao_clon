@@ -1,0 +1,32 @@
+#friends-display-link {
+  text-align: center;
+
+  /*왜 block을 하는지? - a는 인라인요소라서 width, height를 줄 수 없음.
+    block처리를 하면 기본적으로 width=100%로 적용된다. */
+  display: block;
+  background-color: #f9f9fa;
+  padding: 15px 0px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#friends-display-link i {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.friends-screen {
+  margin: 0px var(--horizontal-space);
+}
+
+.friends-screen__channel {
+  margin-top: 25px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 15px;
+  margin-bottom: 30px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.friends-screen__channel-header {
+  display: flex;
+  justify-content: space-between;
+}
