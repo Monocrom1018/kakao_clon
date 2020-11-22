@@ -19,29 +19,21 @@
 }
 
 .nav__notification {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
   left: 15px;
   bottom: 15px;
-
-  width: 27px;
-  height: 27px;
-  border-radius: 15px;
-  background-color: tomato;
 }
 
 .nav__notification2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  left: 30px;
-  bottom: 27px;
-
   width: 5px;
   height: 5px;
   border-radius: 2.5px;
   background-color: tomato;
+
+  position: absolute;
+  left: 30px;
+  bottom: 27px;
 }
